@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyImport", "EasyImport\EasyImport.csproj", "{409D6EC9-34EA-4ABC-B9EE-F81E29FAA1F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyImportTest", "EasyImportTest\EasyImportTest.csproj", "{64FA7940-4DF0-4497-AD42-8C1EA3806DCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{AC0F5FF5-800B-4C16-B266-1D8C540C9443}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\AvUtils.dll = Lib\AvUtils.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{409D6EC9-34EA-4ABC-B9EE-F81E29FAA1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409D6EC9-34EA-4ABC-B9EE-F81E29FAA1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409D6EC9-34EA-4ABC-B9EE-F81E29FAA1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409D6EC9-34EA-4ABC-B9EE-F81E29FAA1F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FA7940-4DF0-4497-AD42-8C1EA3806DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FA7940-4DF0-4497-AD42-8C1EA3806DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FA7940-4DF0-4497-AD42-8C1EA3806DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FA7940-4DF0-4497-AD42-8C1EA3806DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
