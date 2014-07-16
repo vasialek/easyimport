@@ -172,13 +172,14 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
-EasyImport/doc/2014-06-08/DataTemplate v1.11.doc
-EasyImport/doc/2014-06-08/For_FSCC_All/For_FSCC_All.mdb
-EasyImport/doc/2014-06-26/For_FSCC_All_1.7z.001
-EasyImport/doc/2014-06-26/For_FSCC_All_1.7z.002
+doc/2014-06-08/DataTemplate v1.11.doc
+doc/2014-06-08/For_FSCC_All/For_FSCC_All.mdb
+doc/2014-06-26/For_FSCC_All_1.7z.001
+doc/2014-06-26/For_FSCC_All_1.7z.002
 *.mdb
 *.docx
-EasyImport/doc/2014-07-10/DataTemplate v1.6.doc
-EasyImport/doc/2014-07-11/For_FSCC.7z
-EasyImport/doc/error_importing.txt
-EasyImport/doc/For_FSCC_All.zip
+doc/2014-07-10/DataTemplate v1.6.doc
+doc/2014-07-11/For_FSCC.7z
+doc/error_importing.txt
+doc/For_FSCC_All.zip
+EasyImport/ConnectionStrings.config

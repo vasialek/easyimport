@@ -1,4 +1,5 @@
-﻿using log4net;
+﻿using EasyImport.Models;
+using log4net;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -59,6 +60,21 @@ namespace EasyImport.DataReader
                     log4net.Config.XmlConfigurator.Configure();
                 }
                 return _logger;
+            }
+        }
+
+        /// <summary>
+        /// Gets list of tables available/prepared for import
+        /// </summary>
+        public static IList<TableToImport> AvailableTables
+        {
+            get
+            {
+                return new List<TableToImport> {
+                    new TableToImport("from1", "to1"),
+                    new TableToImport("from2", "to2"),
+                    new TableToImport("from3", "to3"),
+                };
             }
         }
 
